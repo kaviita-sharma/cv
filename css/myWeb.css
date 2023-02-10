@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+}
+.top-container{
+  background-color: #B8E8FC;
+  text-align: center;
+  padding-top: 20%;
+  position: relative;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.3rem;
+color: #66BFBF;
+font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.intro{
+  width:50%;
+  margin: auto;
+}
+.middle-container{
+  text-align: center;
+    margin-top: 80px;
+}
+.skills{
+    margin-top: 80px;
+}
+.woman{
+  width: 12%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.code{
+  margin-right:  20px;
+  float: left;
+  width:25%
+}
+.wp{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.cycle{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.triceria,.stakesmen{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+.bottom-cloud{
+position: absolute;
+bottom: 55%;
+left: 20%;
+}
+.top-cloud{
+  position: absolute;
+   top: 18%;
+   right: 20%;
+}
+.bg-color{
+  background-color: #B8E8FC;
+}
+a{
+  color: #11999E;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.experince-row{
+  width: 50%;
+  margin:50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.education-row{
+  width: 50%;
+  margin: 0 auto 100px auto;
+}
+.td{
+  width: 40%;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  color: grey;
+  border-width:5px;
+  margin-bottom: 90px;
+  margin-top: 90px;
+}
+.bottom-container{
+  padding: 40px 0 40px 0;
+  text-align: center;
+  background-color: #66BFBF;
+}
+.bg-head{
+  background-color:#B8E8FC;
+  color: black;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+.copywright{
+  margin: 0;
+  margin-top: 30px;
+  color: #EAF6F6;
+}
+.footer-link{
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+}
+.btnn{
+  background-color:#66BFBF;;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+.btnn:hover{
+  background-color: #3cb0fd;
+}
+.contact-me{
+  margin-bottom: 80px;
+}
+.contact-text{
+  margin-bottom: 80px;
+}
+
+@media (max-width: 500px){
+    .top-container{
+      padding-top: 40%;
+    }
+    .mountain, .education-row {
+    width: 85%;
+    }
+    .mountain{
+      padding-top:20%;
+    }
+    .skill-row , .intro , .experince-row{
+      width: 75%;
+    }
+    .bottom-cloud{
+      bottom:45%;
+      left: 15%;
+      width: 25%;
+    }
+    .top-cloud{
+      width: 25%;
+    }
+}

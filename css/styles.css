@@ -1,0 +1,129 @@
+body{
+  background-color: black;
+  color: white;
+}
+h2{
+  font-size: 48px;
+  line-height: 35px;
+}
+h4{
+  font-size: 28px;
+}
+.nav_bar{
+  width: 100%;
+  border: 2px solid white;
+}
+
+.nav_item{
+  border-right: 2px solid white;
+  color: white;
+}
+.Image{
+  text-align: center;
+  padding-top: 3rem;
+  width: 32rem;
+  height: 30rem;
+  margin: 0 auto;
+}
+.nav-item{
+  color: white;
+}
+.Image {
+	position: relative;
+
+}
+
+.Image:before, .Image:after {
+	content: '';
+	position: absolute;
+  margin: 3rem;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094,
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+  width: 26rem;
+	height: 27rem;
+  border-radius: 100%;
+	z-index: -1;
+
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.Image:after {
+	filter: blur(50px);
+}
+
+.introdunction{
+  background-color: white;
+  color: black;
+  width: 32rem;
+  line-height: normal;
+}
+.btns{
+  background-color: white;
+  color: black;
+  border-radius: 20%;
+  height: 5rem;
+  width: 5rem;
+}
+.rolls{
+  position: absolute;
+  list-style: none;
+  margin-top: -18rem;
+  margin-left: 75rem;
+  line-height: normal;
+}
+.btn-img{
+  width: 60%;
+  height:60%;
+}
+@media (max-width: 500px) {
+  .Image{
+    text-align: center;
+      padding-top: 30rem;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      padding-left: 15rem;
+    background-size: cover;
+    min-height: 1380px;
+    position: relative;
+  }
+  .kavita{
+    width: 56rem;
+    height: 57rem;
+  }
+  .Image:before, .Image:after {
+  	content: '';
+  	position: absolute;
+    margin: 30rem 15rem;
+    left: 0px;
+    top: 0px;
+    width: 56rem;
+    height: 57rem;
+}
+.rolls{
+  margin-left: 70rem;
+  margin-top: 0;
+  }
+  .btns{
+    position: default;
+    height: 10rem;
+    width: 10rem;
+    display: inline;
+  }
+  
+}

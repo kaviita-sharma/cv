@@ -1,0 +1,26 @@
+.container{
+  border: 3px solid black;
+  width: 260px;
+  height: 325px;
+  text-align:center;
+  margin: auto;
+}
+.btn{
+  background: red;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  font-family: sans-serif;
+}
+.blank{
+  border: 1px solid black;
+  border-radius: 15px;
+}
+#result{
+  border: 0px;
+}
